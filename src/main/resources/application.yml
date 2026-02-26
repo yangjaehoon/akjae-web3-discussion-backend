@@ -20,4 +20,9 @@ spring:
 server:
   port: 8080
 
+jwt:
+  # 최소 256bit(32바이트) 이상의 Base64 인코딩된 시크릿 키 (운영 환경에서는 환경변수로 대체)
+  secret: d2ViM2Rpc2N1c3Npb25fc2VjcmV0X2tleV9mb3JfandUX3Rva2VuX2dlbmVyYXRpb25fMjAyNl9ha2phZQ==
+  expiration: 86400000  # 24시간 (ms)
+
 # Auto-push hook test comment
